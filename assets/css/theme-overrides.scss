@@ -1,0 +1,284 @@
+---
+---
+
+
+html {
+  font-family: "Montserrat",system-ui,san-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  background: #fff;
+  color: #505257;
+}
+
+a {
+  color: #3470ff;
+}
+
+.uk-offcanvas-bar .uk-nav-primary > li > a:hover, .uk-offcanvas-bar .uk-link-muted a:hover {
+  color: #3470ff;
+}
+
+a:hover, .uk-link:hover, .uk-link-toggle:hover .uk-link, .uk-link-toggle:focus .uk-link {
+  color: #3470ff;
+  text-decoration: none;
+}
+
+.uk-section-secondary:not(.uk-preserve-color) .uk-link-muted, .uk-section-secondary:not(.uk-preserve-color) .uk-link-muted a {
+  color: #5c5e65
+}
+
+#announcement {
+  text-align: center;
+  padding: 5px 0;
+  background-color: #269ed6;
+  color: white;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.fixed-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.sticky-top {
+  @supports (position: sticky) {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+}
+
+.uk-section {
+  box-sizing: border-box;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background: #FFFFFF;
+}
+
+.uk-section-secondary {
+  background: #0D1F48;
+}
+
+.uk-navbar-nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.uk-navbar-nav>li>a {
+  color: #333;
+  text-transform: none;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+  font-weight: 00;
+}
+
+.uk-navbar-nav>li>a, .uk-navbar-item, .uk-navbar-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 80px;
+  padding: 0 15px;
+  font-size: 15px;
+  font-family: "Montserrat",system-ui,san-serif;
+  text-decoration: none;
+}
+
+.uk-nav-primary>li>a:hover, .uk-nav-primary>li>a:focus {
+  color: #3470ff;
+}
+
+.uk-button {
+  margin: 0;
+  border: none;
+  overflow: visible;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 30px;
+  vertical-align: middle;
+  font-size: .875rem;
+  line-height: 38px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 400;
+  border-radius: 50px;
+}
+
+.uk-button-primary {
+  background-color: #3470ff;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.uk-button-small {
+  padding: 0 15px;
+  line-height: 28px;
+  font-size: .875rem;
+}
+
+.uk-button-primary-preserve, .uk-button-primary-preserve:hover {
+  background-color: #3470ff;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+h1 {
+  display: block;
+  font-size: 2.625rem;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h1, .uk-h1 {
+    font-size: 2.625rem;
+    line-height: 1.2;
+}
+
+h1, .uk-h1, h2, .uk-h2, h3, .uk-h3, h4, .uk-h4, h5, .uk-h5, h6, .uk-h6, .uk-heading-small, .uk-heading-medium, .uk-heading-large, .uk-heading-xlarge, .uk-heading-2xlarge {
+  margin: 0 0 20px 0;
+  font-family: "Montserrat",system-ui,san-serif;
+  font-weight: 600;
+  color: #181818d9;
+  text-transform: none;
+}
+
+.uk-text-center {
+  text-align: center !important;
+}
+
+.uk-article-content {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+
+.uk-button-default {
+  background-color: rgba(0,0,0,0);
+  color: #222;
+  border: 1px solid #333333;
+}
+
+.uk-nav-primary>li>a {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #5c5e65;
+}
+
+.uk-nav, .uk-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.uk-nav li>a {
+  display: block;
+  text-decoration: none;
+}
+
+.uk-link {
+  color: #181818;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.uk-offcanvas-bar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -270px;
+  box-sizing: border-box;
+  width: 270px;
+  padding: 20px 20px;
+  background: #fff;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  font-weight: 400;
+}
+
+.uk-offcanvas-bar .uk-nav-primary > li > a {
+  color: #3f4146;
+}
+
+a.uk-link-muted, .uk-link-muted a {
+  color: #3470ff;
+}
+
+.uk-navbar-nav > li.uk-active > a {
+  color: #3470ff;
+}
+
+.uk-navbar-nav>li>a, .uk-navbar-item, .uk-navbar-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 80px;
+  padding: 0 15px;
+  font-size: 15px;
+  font-family: "Montserrat",system-ui,san-serif;
+  text-decoration: none;
+}
+
+.uk-navbar-toggle {
+  color: #333;
+}
+
+.uk-navbar-toggle:hover, .uk-navbar-toggle:focus, .uk-navbar-toggle.uk-open {
+  color: #000;
+  outline: none;
+  text-decoration: none;
+}
+
+.uk-light .uk-link-muted, .uk-light .uk-link-muted a, .uk-section-primary:not(.uk-preserve-color) .uk-link-muted, .uk-section-primary:not(.uk-preserve-color) .uk-link-muted a, .uk-section-secondary:not(.uk-preserve-color) .uk-link-muted, .uk-section-secondary:not(.uk-preserve-color) .uk-link-muted a, .uk-tile-primary:not(.uk-preserve-color) .uk-link-muted, .uk-tile-primary:not(.uk-preserve-color) .uk-link-muted a, .uk-tile-secondary:not(.uk-preserve-color) .uk-link-muted, .uk-tile-secondary:not(.uk-preserve-color) .uk-link-muted a, .uk-card-primary.uk-card-body .uk-link-muted, .uk-card-primary.uk-card-body .uk-link-muted a, .uk-card-primary > :not([class*='uk-card-media']) .uk-link-muted, .uk-card-primary > :not([class*='uk-card-media']) .uk-link-muted a, .uk-card-secondary.uk-card-body .uk-link-muted, .uk-card-secondary.uk-card-body .uk-link-muted a, .uk-card-secondary > :not([class*='uk-card-media']) .uk-link-muted, .uk-card-secondary > :not([class*='uk-card-media']) .uk-link-muted a, .uk-overlay-primary .uk-link-muted, .uk-overlay-primary .uk-link-muted a, .uk-offcanvas-bar .uk-link-muted, .uk-offcanvas-bar .uk-link-muted a {
+  color: #f0f0f38c;
+}
+
+.uk-offcanvas-bar .uk-icon-link {
+  color: #333333
+}
+
+.uk-offcanvas-bar .uk-icon-link:hover {
+  color: #3470ff
+}
+
+.uk-offcanvas-page, .uk-offcanvas-container {
+  overflow-x: hidden;
+}
+
+.uk-navbar-nav>li>a, .uk-navbar-item, .uk-navbar-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 80px;
+  padding: 0 10px;
+  font-size: 16px;
+  font-family: "Montserrat",system-ui,san-serif;
+  text-decoration: none;
+}

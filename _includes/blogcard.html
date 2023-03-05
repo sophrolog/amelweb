@@ -1,0 +1,12 @@
+<div>
+  <div class="uk-card uk-card-default">
+    <div class="uk-card-media-top">
+      <a href="{% if post.link %}{{ post.link }}" target="blog{% else %}{{ post.url }}{% endif %}"><img src="{{ post.featured-image }}" ></a>
+    </div>
+    <div class="uk-card-body">
+        <h3 class="uk-card-title uk-margin-remove-bottom">{{ post.title }}</h3>
+        <p class="uk-text-small uk-margin-remove-top"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time></p>
+        <p>{{ post.excerpt }}</p>
+    </div>
+ </div>
+</div>

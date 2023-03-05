@@ -1,0 +1,14 @@
+title: Amélie Royer Sophrologue
+email: contact@amelie-sophrologue.com
+description: >-
+  Strapdata created Elassandra by tightly integrating the powerful search engine
+  Elasticsearch into the mission-critical database Apache Cassandra.
+baseurl: ''
+url: 'https://amelie-sophrologue.com'
+twitter_username: strapdataio
+github_username: vroyer
+theme: minima
+plugins:
+  - jekyll-sitemap
+exclude:
+  - vendor
