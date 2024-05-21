@@ -1,12 +1,11 @@
 title: Amélie Royer Sophrologue
 email: contact@amelie-sophrologue.com
 description: >-
-  Strapdata created Elassandra by tightly integrating the powerful search engine
-  Elasticsearch into the mission-critical database Apache Cassandra.
+  Amélie Royer Sophrologue, Sophrologie, Neurofeedback, Hypnose.
 baseurl: ''
 url: 'https://amelie-sophrologue.com'
-twitter_username: strapdataio
-github_username: vroyer
+twitter_username: ameliesophrologue
+github_username: amelieroyer
 theme: minima
 plugins:
   - jekyll-sitemap
